@@ -1,0 +1,3 @@
+map_name: conquest_of_the_world
+games:
+- {game_name: Conquest of the World, file_name: conquest_world.xml}
