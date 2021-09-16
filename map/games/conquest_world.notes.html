@@ -1,0 +1,107 @@
+<div style="text-align: center">
+<h1>CONQUEST</h1>
+<h2>OF THE WORLD</h2>
+</div>
+<br>
+<br>Victory
+<br>
+<br>The Army owning 28 or more Territories start turn achieve Victory!
+<br>
+<br>Rules
+<br>
+<br>This is an under development version of "Conquest of the World".
+<br>
+<br>The game can be played with 2, 3, 4, 5 or 6 players (the suggested number of players is 6).
+<br><i>To play with less than 6 players, uncheck the "Use" of any players you don't want to be used, before starting the game</i>
+<br>
+<br>All the players, listed by the turn order, are:
+<br>Red Army
+<br>Yellow Army
+<br>Green Army
+<br>Turquoise Army
+<br>Blue Army
+<br>Pink Army
+<br>
+<br>As now, the game plays as per WWIIv1 rules, except for:
+<br>- You can move by land between all territories sharing a border or connected by dotted lines.<b>
+<br>- There is only one unit, the "army", having movement 1, defence 2 and attack 3.<!--
+<br>- Battles are resolved as follow:
+<br>You actively defend or attack only with a maximum number of your units equal to the current number of enemy units (your units in excess to the number of enemy units are in reserve).
+<br>Each actively defending or attacking unit rolls 1 six-sided dice, hitting on a number equal or lower than its defence or attack value.
+<br>During each battle round, the defender rolls all its dice at once, first, then the attacker does the same (only with the surviving units).
+<br>When hits are scored, the opposite side must immediately remove an equal number of units (casualties never fire back).
+<br>At the end of each battle round (right after defender casualties are removed), if both the attacker and the defender have surviving units, the attacker decides whether to retreat, to only one of the territories whence it came, or make another battle round.
+<br>The battle ends when all attacker units are removed, all defender units are removed (the invaded territory is conquered and occupied by all surviving attacking units) or the attacker retreats.
+<br><i>
+<br>Talking in WWIIv1 terms, the battle changes are:-->
+<br>- The defender fires before the attacker.
+<br>- Casualties are removed instantly (no fireback).
+<br>- You can roll no more dice than the total current number of enemy units (no overstack).</b><!--
+<br>
+<br>This means that, as the attacker, you have to attack with a number of units from one to two times the number of defending units, if you want to maximize your attack power on the first battle round. Averagely, you would need one third more attacking unit than defending units, to maximize your first round attack power. As long as you start any battle rounds with more than two times the number of attacking than defending units, the units in excess won't have a chance to take part in this battle round, acting as tactical reserves. If the attacker has the same number of attacking units as the defender, at the start of any battle round, the victory probability for the remaining battle spans from exactly 50%, in case of only 1 against 1 unit, to about 62% win probability, in case of infinite against infinite units (but 10 attacking armies against 10 defending armies is about 59% win for the attacker, already)--></i>
+<br>
+<br>- Territories are assigned randomly amongst the players, as follow:
+<br>6 Players: 7 territories;
+<br>5 Players: 9 territories for the first two, 8 territories for the others;
+<br>4 Players: 11 territories for the first two, 10 territories for the others;
+<br>3 Players: 14 territories;
+<br>2 Players: 21 territories.
+<br>- Each player has 1 army in each starting territory.
+<br>
+<br>- After assigning territories and placing starting units, each turn's phase order is:
+<br>&nbsp;Reinforce
+<br>&nbsp;Combat Move
+<br>&nbsp;Combat
+<br>&nbsp;Non Combat Move
+<br>
+<br>- Reinforce: At start turn, you must reinforce territories with additional army units:
+<br>&nbsp;1 army for every 3 territories you own, down to a minimum of 3 army, as long as you own at least 1 territory (so, from 1 to 11 territories you receive 3 army);
+<br>&nbsp;7 army if you own Afghanistan, China, India, Irkutsk, Japan, Kamchatka, MiddleEast, Mongolia, Siam, Siberia, Ural, Yakutsk;
+<br>&nbsp;5 army if you own Alaska, Alberta, CentralAmerica, EasternUnitedStates, Greenland, NorthWestTerritory, Ontario, Quebec, WesternUnitedStates;
+<br>&nbsp;5 army if you own GreatBritain, Iceland, NorthernEurope, Scandinavia, SouthernEurope, Ukraine, WesternEurope;
+<br>&nbsp;3 army if you own Congo, EastAfrica, Egypt, Madagascar, NorthAfrica, SouthAfrica;
+<br>&nbsp;2 army if you own EasternAustralia, Indonesia, NewGuinea, WesternAustralia;
+<br>&nbsp;2 army if you own Argentina, Brazil, Peru, Venezuela.
+<br>- You can reinforce any territories you own, with no limits (you can use new units on the same turn).
+<br>
+<br>Options
+<br>
+<br>Territories Are Assigned Randomly = False: Noone owns any territories at start game; you claim unowned territories, at start game, by placing 1 unit in each territory, alternating by the turn order.
+<br>
+<br>Add Units Start Setup = True: Each player starts the game holding starting "army" units to place. All players have the same number of starting army units, depending on the total number of players in the game:
+<br>6 Players: 20 army units;
+<br>5 Players: 25 army units;
+<br>4 Players: 30 army units;
+<br>3 Players: 35 army units;
+<br>2 Players: 50 army units.
+<br>The units placed to take ownership of territories, randomly or not, count out for the total.
+<br>Once all territories are claimed, randomly or not, you keep placing your remaining units in your owned territories, one at time, alternating by the turn order.
+<br><i>It is suggested to enable this option in 2 players games</i>
+<br>
+<br>Place Units After Combat = True: You place after Combat the units you received at start turn (you can reinforce newly conquered territories).
+<br><i>It is suggested to enable this option when playing with AI</i>
+<br>
+<br>National Levy (Default = 3): You can set the minimum number of units you receive each turn, anyway, for holding any territory. If all deselected, you receive at least 1 unit per turn, anyway, as long as you own at least 1 territory. The National Levy is not cumulative with the bonus 1 army for every 3 territories.
+<br><i>The suggested values are 2 or 3</i>
+<br>
+<br>Bid Bonus Setup Restricted = True: The player receives bid bonus units only at start game (otherwise the bonus is also at the start of each turn).
+<br><i>It is suggested to enable this option and bidding, for being last in the turn order, in 2 players games</i>
+<br><i>Bonus units start turn are meant for challenging games against inferior opponents (usually, AI)</i>
+<br>
+<br>Suggested Graphic Settings
+<br>
+<br>Details On
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Show Map Details "checked"</i>
+<br>Blends Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Show Map Blends "unchecked"</i>
+<br>Zoom UHD: 100%, HD: 50%
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Map Zoom.../"100~50"</i>
+<br>Borders Hidden
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Draw Borders On Top/Low</i>
+<br>Unit Size 75%
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Unit Size/75%</i>
+<br>Font Size 32
+<br>&nbsp;&nbsp;&nbsp;&nbsp; <i>View/Edit Map Font and Color.../"Font Size = 32"</i>
+<br>
+<br>Enable <i>View/Show Map Blends</i> for removing territory ownership colours.
+<br>
